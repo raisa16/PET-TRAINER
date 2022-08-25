@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style src=" ./css/"></style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Pettrainer</title>
+</head>
+<body>
+    <main>
+        <header class="cabecera">
+            <nav class="menus">
+        <ul class="nav justify-content-center">
+          <img class="mb-4" src="img/icons8-training-64.png">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </nav>
+            </header>
+          <section class="galeria">
+            <h1>Pettrainer</h1>
+        </section>
+        <section class="card-group">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/dog1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Beginner:</h5>
+                  <p class="card-text">Address problem behaviors for a well-mannered family member. A 6-week introductory course for dogs 5 months and older that teaches basic manners with impulse control and relationship-building exercises. Cues taught: Wait, walk nicely on a leash, Come When Called....</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/dog2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Intermediate:</h5>
+                  <p class="card-text">Foundational behaviors, enhancing skills for real-world application. A 6-week course helps dogs who already know basic cues achieve the same results in different situations that add more distance, duration and distractions. Cues taught: Heel, Stay, Place and more. </p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/dog3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Advanced:</h5>
+                  <p class="card-text">A 6-week course for Intermediate graduates that strengthens your dog’s reliability and teaches complex skills useful in a variety of situations, using limited training tools. This course also reviews the steps of an AKC Canine Good Citizen or CGN Canine Good Neighbor Evaluation. </p>
+                  </div>
+              </div>
+        </section>
+
+        <form>      
+          <h1>Register here</h1>
+          <div class="form-floating" id="form-floating">
+            <input type="text" class="form-control" id="petName" placeholder="Rex" name="name">
+            <label for="petName">Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" id="petMonths" placeholder="Months" name="months">
+            <label for="petMonths">Months</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="traningLevel" placeholder="Traning level" name="traning-level">
+            <label for="traningLevel">Traning level</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="ownerName" placeholder="Owner Name" name="Owner">
+            <label for="ownerName">Owner</label>
+          </div>
+          <div class="form-floating">
+            <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone">
+            <label for="phone">Phone</label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" onclick="dogData()">Register</button>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<script src="js/main.js"></script>
+</html>
